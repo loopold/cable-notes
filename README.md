@@ -1,6 +1,6 @@
 # Cable Notes
 
-This is a concept solution for network administrators to make changes in network cable connection under control. I show you my idea how to use developer tools like git or vscode to managing network coble connections, switches, patch panels, and cabinets. Logging changes is simple from today.
+This is a concept solution for network administrators to make changes in network cable connection under control. I show you my idea how to use developer tools like Git and VSCode to managing network cable connections, switches, patch panels, and cabinets. Logging changes is simple from today.
 
 ---
 
@@ -30,7 +30,7 @@ With a simply text file with Git we have a tool with following features:
 3. Export PDF file from markdown
 4. Planning chances in TODO section
 5. Highlighting string - part of selected panel, switch, etc.
-6. Using `SourceTree` (or similar tool) to see commited changes
+6. Using `SourceTree` (or similar tool) to see committed changes
 7. Using `grep` to see device connection in large file.
 8. Preview modification in Code.
 
@@ -44,7 +44,7 @@ Pure text in markdown format
 
 I put in two sections:
 1. Uplink Direction (to remember always using one direction: from endpoint to the switch)
-2. TODO. For planned changes. To copypasting.
+2. TODO. For planned changes. To copypastying.
 
 ### Formatting source
 
@@ -77,7 +77,7 @@ Here you see my file in prenatal state. On the left *Uplink direction* section, 
 After changes and save file we use built-in *Source control* in VSCode. We can see our changes and make `git commit` directly from a little window on the top.
 ![drugi](img/cableNotes2.png)
 
-AND HERE is **the Main Feature**. Preview of changes. Log of commits. Excellent. You see who, when, what. You can siply turn back wrong decisions...
+AND HERE is **the Main Feature**. Preview of changes. Log of commits. Excellent. You see who, when, what. You can simply turn back wrong decisions...
 ![trzeci](img/cableNotes3.png)
 
 ---
